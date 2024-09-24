@@ -1,0 +1,38 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+/* Estilización del contenedor */
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo del mensaje de bienvenida */
+#welcome-message {
+    font-size: 2rem;
+    color: #ff6347;
+    margin-bottom: 20px;
+}
+
+/* Estilo del nombre */
+#name {
+    font-size: 1.5rem;
+    color: #4682b4;
+}
